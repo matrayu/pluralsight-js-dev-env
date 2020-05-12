@@ -5,6 +5,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import WebpackMd5Hash from 'webpack-md5-hash';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
+
 /* const UglifyJsPlugin = require('uglifyjs-webpack-plugin'); */
 
 export default {
@@ -84,7 +85,7 @@ export default {
       inject: true,
       // Properties you define here are available in index.html
       // using htmlWebpackPlugin.options.varName
-      rollbarToken: 'dba0fb5265ab400fa24274b8a556baec'
+      rollbarToken: process.env.ROLLBARTOKEN
     })
   ],
   module: {

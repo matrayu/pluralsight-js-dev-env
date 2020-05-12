@@ -24,6 +24,7 @@
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {

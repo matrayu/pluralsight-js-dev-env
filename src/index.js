@@ -1,5 +1,7 @@
 import './index.css';
 import {getUsers, deleteUser} from './api/userApi';
+require('dotenv').config()
+
 
 // Populate table of users via API call //
 getUsers().then(result => {
